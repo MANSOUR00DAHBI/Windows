@@ -1,5 +1,5 @@
 #ifndef H_H 
-#define H_H 
+#define H_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,5 +11,6 @@
 #include <time.h>
 #include <signal.h>
 #include <assert.h>
+#include <float.h>
 
-#endif // H_H
+#endif // H_H						

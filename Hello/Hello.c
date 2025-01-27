@@ -11,7 +11,14 @@ int nc; // Counter Character
 #ifdef HELLO_H
 
 int Hello(void) {
-	printf("Hello I'm Visual Studio 2022 \n");
+	for (size_t i = 0; i < 100; i++){
+		printf("%zu\b\b\b", i);
+		
+		Start-sleep(5000);
+	}
+
+	printf("\n\t Hello I'm Visual Studio\b \" 2022 \" \n");
+
 	c = getchar();
 	for (nc = 0;(c = getchar()) != '^';++nc);
 	printf("Number Char : %3d \n",c);
