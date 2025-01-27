@@ -14,10 +14,10 @@ int Hello(void) {
 	for (size_t i = 0; i < 100; i++){
 		printf("%zu\b\b\b", i);
 		
-		Start-sleep(5000);
+		usleep(500000);
 	}
 
-	printf("\n\t Hello I'm Visual Studio\b \" 2022 \" \n");
+	printf("\n\t Hello I'm Visual Studio\b \" /2022/ \" \n");
 
 	c = getchar();
 	for (nc = 0;(c = getchar()) != '^';++nc);
