@@ -1,5 +1,6 @@
  
 #!/bin/sh
+rm Setup 
 clear
 set -ex
 
