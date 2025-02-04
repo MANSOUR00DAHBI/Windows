@@ -54,7 +54,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
     HWND hwnd = CreateWindowEx(
         0,                              // Optional window styles
         CLASS_NAME,                     // Window class
-        L"Circle Drawing Example",      // Window title
+      L"Circle Drawing Example",      // Window title
         WS_OVERLAPPEDWINDOW,            // Window style
         CW_USEDEFAULT, CW_USEDEFAULT,   // Position
         500, 400,                       // Size

@@ -37,7 +37,7 @@ int Hello(void) {
 
 int get_char() {
 	extern int c, nc, nw, nl;
-	for(nc = 0 ;(c= getchar())!= EOF || != '^';++nc)
+	for(nc = 0 ;(c= getchar())!= EOF || c != '^';++nc)
 		if (c == '\n') {
 			++nl;
 		}
